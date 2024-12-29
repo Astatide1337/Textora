@@ -459,6 +459,7 @@ class Textora:
 
     def listen_for_shortcuts(self):
         keyboard.add_hotkey("ctrl+alt+t", self.toggle_typing)
+        keyboard.add_hotkey("escape", self.toggle_typing)
 
     def start_recording(self):
         if not self.recording_active:
