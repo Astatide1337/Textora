@@ -65,7 +65,7 @@ class Textora:
     def __init__(self, root):
         self.root = root
         self.root.title("Textora")
-        self.root.geometry("1024x768")
+        self.root.geometry("850x650")
         self.root.configure(bg="#0D1321")
         
         # Modern color scheme
